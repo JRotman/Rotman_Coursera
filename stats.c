@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief File implementing analytics of datasets
  *
- * <Add Extended Description Here>
+ * Implementation file for functions to find the maximum, minimum, median, and
+ * mean of a dataset as well as the functions to print these nicely
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Jeremy Rotman
+ * @date 14 June 2020
  *
  */
 
@@ -40,4 +41,36 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char minimum, unsigned char maximum, 
+		unsigned char median, unsigned char mean) {
+
+}
+
+void print_array(unsigned char* data_array, unsigned int array_length) {
+
+}
+
+unsigned char find_median(unsigned char* data_array,
+		unsigned int array_length) {
+	return 0;
+}
+
+unsigned char find_mean(unsigned char* data_array,
+		unsigned int array_length) {
+	return 0;
+}
+
+unsigned char find_maximum(unsigned char* data_array, 
+		unsigned int array_length) {
+	return 0;
+}
+
+unsigned char find_minimum(unsigned char* data_array,
+		unsigned int array_length) {
+	return 0;
+}
+
+void sort_array(unsigned char* data_array, unsigned int array_length) {
+	
+}
